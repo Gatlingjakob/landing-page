@@ -61,16 +61,21 @@
           <div class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2">
             <!-- COPYWRITING -->
             <div>
-              <h1>Home</h1>
-              <p class="ui-text-intro">Lorem ipsum dolor sit amet, consectetur lit, enimad eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi.</p>
-              <!-- CTA -->
-              <div class="ui-component-cta ui-layout-flex">
-                <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Get Started for Free</a>
-                <p class="ui-text-note"><small>30 days free trial.</small></p>
+            <h1>Contact Us</h1>
+            <form action="mailto:gatlingjakob@hotmail.com" method="POST" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+            
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br>
+            
+                <input type="submit" value="Submit">
+            </form>
               </div>
-            </div>
-            <!-- IMAGE -->
-            <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" loading="lazy" alt="#" class="ui-image-half-right">
+          </div>
           </div>
         </div>
       </section>

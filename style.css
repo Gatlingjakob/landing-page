@@ -371,6 +371,8 @@ header{
 .ui-section-header {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
+  
+  background-color:seagreen;
 }
 
 .ui-section-header__layout { justify-content: space-between; }
@@ -422,7 +424,7 @@ header{
 /* MENU */
 
 .ui-section-header--nav {
-  background-color: var(--ui-color-background-primary);
+  background-color: seagreen;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.05);
   flex-direction: column;
   gap: var(--ui-gap-header);
@@ -447,6 +449,7 @@ header{
   font-size: var(--ui-typography-h3);
   padding: .5rem;
   text-decoration: none;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -456,8 +459,8 @@ header{
 --------------------------------------------------------------*/
 
 .ui-section-hero {
-  padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
@@ -743,7 +746,7 @@ header{
   ------------------------------------------------------------*/
 
   .ui-section-header {
-    padding-bottom: 0;
+    padding-bottom: 2rem;
     padding-top: 2rem;
   }
 
@@ -965,7 +968,9 @@ header{
   |
   ------------------------------------------------------------*/
 
-  .ui-section-header { padding-top: 3rem; }
+  .ui-section-header { 
+   /* padding-top: 3rem; */
+  }
 
   /*------------------------------------------------------------
   |
@@ -974,8 +979,8 @@ header{
   ------------------------------------------------------------*/
 
   .ui-section-hero {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 
   /*------------------------------------------------------------
