@@ -372,7 +372,7 @@ header{
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
   
-  background-color:seagreen;
+  background-color:steelblue;
 }
 
 .ui-section-header__layout { justify-content: space-between; }
@@ -424,7 +424,7 @@ header{
 /* MENU */
 
 .ui-section-header--nav {
-  background-color: seagreen;
+  background-color:steelblue;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.05);
   flex-direction: column;
   gap: var(--ui-gap-header);
