@@ -462,7 +462,15 @@ header{
   padding-bottom: 1rem;
   padding-top: 1rem;
   text-align: center;
+
+  
+  .team-contact-us{
+    background-color: var(--ui-color-background-secondary);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
+
 
 .ui-section-hero__layout { row-gap: var(--ui-gap-hero); }
 
