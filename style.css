@@ -459,7 +459,7 @@ header{
 --------------------------------------------------------------*/
 
 .ui-section-hero {
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   padding-top: 1rem;
   text-align: center;
 
@@ -501,7 +501,7 @@ header{
 --------------------------------------------------------------*/
 
 .ui-section-feature {
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
   padding-top: 5rem;
 }
 
@@ -584,7 +584,7 @@ header{
 
 .ui-section-testimonial {
   padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -594,8 +594,8 @@ header{
 
 .ui-section-testimonial--avatar {
   border-radius: var(--ui-radius-avatar);
-  height: 5rem;
-  width: 5rem;
+  height: 8rem;
+  width: 8rem;
 }
 
 .ui-section-testimonial--quote {
@@ -627,6 +627,7 @@ header{
 .ui-section-footer {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
+  background-color: var(--ui-color-n-500);
 }
 
 .ui-section-footer__layout {
@@ -987,7 +988,7 @@ header{
   ------------------------------------------------------------*/
 
   .ui-section-hero {
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
     padding-top: 1rem;
   }
 
@@ -1010,7 +1011,7 @@ header{
   ------------------------------------------------------------*/
 
   .ui-section-feature {
-    padding-bottom: 7.5rem;
+    /* padding-bottom: 7.5rem; */
     padding-top: 7.5rem;
   }
 
@@ -1045,8 +1046,8 @@ header{
   ------------------------------------------------------------*/
 
   .ui-section-testimonial {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
+    padding-bottom: 5rem;
+    /* padding-top: 7.5rem; */
   }
 
   /*------------------------------------------------------------
@@ -1094,4 +1095,21 @@ header{
   padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.index-cta{
+  justify-content: center;
+}
+
+.ui-section-footer{
+  color: var(--ui-color-typography-note);
+  font-size: 14px;
+}
+
+.about-page{
+  margin-bottom: 50px;
+}
+
+.contact-page{
+  margin-bottom: 50px;
 }
