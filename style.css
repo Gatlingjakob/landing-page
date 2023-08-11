@@ -467,7 +467,7 @@ header{
   .team-contact-us{
     background-color: var(--ui-color-background-secondary);
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
   }
 }
 
@@ -1111,5 +1111,31 @@ header{
 }
 
 .contact-page{
+  margin-bottom: 50px;
+}
+
+.index-header{
+  padding-top: 115px;
+  padding-bottom: 25px;
+  background-color: white;
+}
+
+.services-header{
+  padding-top: 115px;
+  padding-bottom: 115px;
+  background-color: #0d1a2a;
+  color: white;
+  text-align: center;
+}
+
+.team-header{
+  padding-top: 115px;
+  padding-bottom: 115px;
+  background-color: #0d1a2a;
+  color: white;
+  text-align: center;
+}
+
+.team-bottom{
   margin-bottom: 50px;
 }
