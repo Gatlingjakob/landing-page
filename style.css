@@ -884,7 +884,7 @@ header{
   .ui-section-hero .ui-component-cta {
     align-items: center;
     column-gap: var(--ui-gap-cta);
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
   }
 
