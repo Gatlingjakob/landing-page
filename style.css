@@ -1139,3 +1139,10 @@ header{
 .team-bottom{
   margin-bottom: 50px;
 }
+
+.mobile-header-font-size{
+  font-size: 80px;
+  @media screen and (max-width: 505px) {  
+      font-size: 40px;
+  }
+}
