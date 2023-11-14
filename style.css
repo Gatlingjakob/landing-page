@@ -1146,3 +1146,12 @@ header{
       font-size: 40px;
   }
 }
+
+.projects-table-logo{
+  width: 15%;
+  padding: 1%
+}
+
+.projects-table-text{
+  width: 85%;
+}
