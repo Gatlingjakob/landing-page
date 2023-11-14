@@ -1147,6 +1147,14 @@ header{
   }
 }
 
+.projects-table{
+  margin-bottom: 100px;
+}
+
+.projects-table-row{
+  margin-bottom: 20px;
+}
+
 .projects-table-logo{
   width: 15%;
   padding: 1%
